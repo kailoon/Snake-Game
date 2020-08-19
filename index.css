@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 200px;
+  margin: 1em auto;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 4px 10px;
+  border: 0;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.18s ease-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #f1f1f1;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  background-color: lemonchiffon;
+  margin-bottom: 10px;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: lightseagreen;
+}
+.head {
+  background-color: darkgreen;
+}
+
+.apple {
+  background-color: palevioletred;
+  border-radius: 50px;
+}
